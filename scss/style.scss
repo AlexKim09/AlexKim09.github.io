@@ -1,0 +1,150 @@
+.container
+{
+    max-width: 1440px;
+    margin: 0 auto;
+  
+}
+h1
+{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+p
+{
+    
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+.main
+{
+    margin: 0 auto;
+    max-width:500px ;
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+   background-color: bisque;
+    .res
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .rst
+    {
+        width: 350px;
+        height: 50px;
+    }
+   
+    .blocks
+    {
+        display: flex;
+        justify-content: center;
+        .first_block
+        {
+            .item
+            {
+            display: flex;
+            flex-direction: column;
+            }
+        }
+        .second_block
+        {
+            .item
+            {
+            display: flex;
+            flex-direction: column;
+            }
+        }
+        .third_block
+        {
+            .item
+            {
+            display: flex;
+            flex-direction: column;
+            }
+        }
+        .fourth_block
+        {
+            .item
+            {
+            display: flex;
+            flex-direction: column;
+            }
+        }
+        
+    }
+    .bottom
+    {
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    
+}
+.resultat
+    {
+        
+        border: 1px solid;
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 150px;
+        height: 40px;
+        color:rgb(0, 0, 0);
+        background-color: white;
+        
+        font-size: 18px;
+        line-height: 22px;
+    }
+.btn
+    {
+        margin: 10px 10px 10px 10px;
+        border: 1px solid;
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 75px;
+        height: 75px;
+        color:rgb(247,148,30);
+        background-color: white;
+        
+        font-size: 18px;
+        line-height: 22px;
+    }
+.btn:hover
+{
+        margin: 10px 10px 10px 10px;
+        border: 1px solid;
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 75px;
+        height: 75px;
+        color:rgb(247,148,30);
+        background-color: rgb(255, 249, 249);
+        
+        font-size: 18px;
+        line-height: 22px;
+}
+
+.btn2
+    {
+        margin: 10px 10px 10px 10px;    
+        font-size: 18px;
+        width: 75px;
+        height: 75px;
+        text-align: center;
+        background-color:rgb(247,148,30);
+        color: white;
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 5px;
+            
+    }
+.error
+
+{
+    font-size: 24px;
+    color: red;
+}

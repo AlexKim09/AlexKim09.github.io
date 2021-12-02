@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+                <h1>Калькулятор</h1>
+                <div class="res">
+                    <input type="text" class="rst" id="calculator" readonly>  
+                </div>
+                
+                <div class="blocks">
+                    <div class="first_block">
+                        <div class="item">
+                            <input type="button" class="btn" value="7" onclick="calc(this.value)">
+                            <input type="button" class="btn" value="4" onclick="calc(this.value)">
+                            <input type="button" class="btn" value="1" onclick="calc(this.value)">
+                            <input type="button" class="btn" value="0" onclick="calc(this.value)">
+                        </div>
+                    </div>
+                    <div class="second_block">
+                        <div class="item">
+                            <input type="button" class="btn" value="8" onclick="calc(this.value)">
+                            <input type="button" class="btn" value="5" onclick="calc(this.value)">
+                            <input type="button" class="btn" value="2" onclick="calc(this.value)">
+                        </div>
+                    </div>
+                    <div class="third_block">
+                        <div class="item">
+                            <input type="button" class="btn" value="9" onclick="calc(this.value)">
+                            <input type="button" class="btn" value="6" onclick="calc(this.value)">
+                            <input type="button" class="btn" value="3" onclick="calc(this.value)">
+                        </div>
+                    </div>
+                    <div class="fourth_block">
+                        <div class="item">
+                            <input type="button" class="btn2" value="+" onclick="sumb(this.value)">
+                            <input type="button" class="btn2" value="-" onclick="sumb(this.value)">
+                            <input type="button" class="btn2" value="*" onclick="sumb(this.value)">
+                            <input type="button" class="btn2" value="/" onclick="sumb(this.value)">
+                        </div>
+                    </div>   
+                </div>
+                <p id='error' class="error"></p>
+                <div class="bottom">
+                    <p id="result" class="resultat"></p>
+                </div>
+        </div>      
+    </div>
+<script src="scripts/script.js"></script>
+
+
+</body>
+
+
+</html>
